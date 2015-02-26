@@ -1,0 +1,71 @@
+html {
+	height: 100%;
+}
+
+header {
+	height: 150px;
+	margin: 0 auto;
+	background-color: rgb(80, 215, 80);
+	margin-top: -34px;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+h1 {
+	padding-top: 50px;
+	margin-bottom: 0px;
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	padding-left: 20px;
+}
+
+body {
+	background-image: url("http://blog.heartland.org/wp-content/uploads/2014/09/foodb.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: fixed;
+}
+
+#foodItem {
+	float: right;
+	margin-top: -52px;
+	height: 30px;
+	width: 300px;
+	margin-right: 28px;
+	border: 2px solid black;
+}
+
+#searchButton {
+	float: right;
+	margin-right: 332px;
+	margin-top: -50px;
+	height: 33px;
+	border: 2px solid black;
+}
+
+#container {
+	width: 500px;
+	margin: 0 auto;
+	background-color: rgb(80, 215, 80);
+	height: 400px; 
+	overflow: scroll;
+	margin-top: 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#list {
+	list-style: none;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #FF00FF;
+}
+a:active {
+    color: #0000FF;
